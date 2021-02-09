@@ -5,5 +5,4 @@ WORKDIR /app
 COPY getPanIndex.sh /app
 RUN chmod +x /app/getPanIndex.sh
 RUN sh /app/getPanIndex.sh
-EXPOSE 8080
 CMD ["/app/PanIndex", "-config=/app/config.json"]
