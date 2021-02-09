@@ -1,4 +1,4 @@
-FROM FROM heroku/heroku:20
+FROM heroku/heroku:20
 
 RUN apt-get update
 RUN apt-get install -y \
