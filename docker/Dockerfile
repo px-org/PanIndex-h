@@ -8,5 +8,5 @@ RUN apt-get install -y \
   build-essential \
   zip \
   jq
-COPY *.sh /
+COPY ../*.sh /
 ENTRYPOINT ["sh", "/configure.sh"]
