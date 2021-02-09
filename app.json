@@ -19,5 +19,9 @@
     }
   },
   "website": "http://github.com/libsgh/PanIndex",
-  "repository": "http://github.com/libsgh/PanIndex-heroku"
+  "repository": "http://github.com/libsgh/PanIndex-heroku",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
 }
