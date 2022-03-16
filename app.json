@@ -14,9 +14,13 @@
       "value": "en_US.UTF-8"
     },
     "PAN_INDEX_VERSION": {
-      "description": "PanIndex版本，默认为最新版，查看：https://github.com/libsgh/PanIndex/releases",
+      "description": "PanIndex版本，为空表示部署最新版，版本查看：https://github.com/libsgh/PanIndex/releases",
       "required": false,
       "value": ""
+    },
+    "DB_TYPE": {
+      "description": "数据源类型",
+      "value": "postgres"
     }
   },
   "addons": [
