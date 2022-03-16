@@ -1,4 +1,4 @@
-FROM golang:1.14
+FROM golang:1.17
 MAINTAINER libsgh
 ENV GIN_MODE=release
 WORKDIR /app
