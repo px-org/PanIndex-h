@@ -1,6 +1,7 @@
 #!/bin/bash
 version="$PAN_INDEX_VERSION"
-echo $version
+echo '$version'
+echo 'sss'
 if [ "$version" = "" ]
 then
     version=`curl --silent "https://api.github.com/repos/libsgh/PanIndex/releases/latest" \
@@ -12,3 +13,4 @@ md5sum "PanIndex-"${version}"-linux-amd64.tar.gz"
 tar -xvzf "PanIndex-"${version}"-linux-amd64.tar.gz"
 rm -rf README.md LICENSE
 chmod +x PanIndex
+/app/PanIndex
