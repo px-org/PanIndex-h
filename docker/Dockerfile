@@ -6,5 +6,5 @@ COPY run.sh /app
 RUN chmod +x /app/run.sh
 #RUN sh /app/getPanIndex.sh
 #CMD ["/app/PanIndex", "-config=/app/config.json"]
-CMD ["bash","-c","/app/run.sh"]
+CMD ["/app/run.sh"]
 ENTRYPOINT ["/bin/bash"]
