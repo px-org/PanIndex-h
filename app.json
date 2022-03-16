@@ -19,6 +19,11 @@
       "value": ""
     }
   },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
   "website": "http://github.com/libsgh/PanIndex",
   "repository": "http://github.com/libsgh/PanIndex-heroku",
   "stack": "container",
