@@ -30,6 +30,7 @@
   ],
   "website": "http://github.com/libsgh/PanIndex",
   "repository": "http://github.com/libsgh/PanIndex-heroku",
+  "logo": "https://cdn.jsdelivr.net/gh/libsgh/PanIndex@main/docs/_media/index.png",
   "stack": "container",
   "features": [
     "runtime-dyno-metadata"
