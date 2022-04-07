@@ -1,5 +1,5 @@
-# PanIndex-heroku
-[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/libsgh/PanIndex-heroku.git)
+# PanIndex-h
+[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/libsgh/PanIndex-h.git)
 
 ### 说明
 - 如果想指定版本，请设置`PAN_INDEX_VERSION`，为空将使用Release最新版。
